@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075B1681931109FCEBFF8E59 /* Pods_DynaESPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016F1CB5F74400EC7F7B0090 /* Pods_DynaESPTests.framework */; };
+		1816B0F22084E1CB00B4B9CE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816B0F12084E1CB00B4B9CE /* SettingsViewController.swift */; };
+		1816B0F42084E1E800B4B9CE /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816B0F32084E1E800B4B9CE /* RoomViewController.swift */; };
+		1816B0F62084E2AC00B4B9CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816B0F52084E2AC00B4B9CE /* LoginViewController.swift */; };
+		1816B0F82084E37700B4B9CE /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816B0F72084E37700B4B9CE /* Reach.swift */; };
+		1856159A21AC018A00594F7E /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856159921AC018A00594F7E /* SwitchViewController.swift */; };
 		1858B3E020515C7D001D217B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858B3DF20515C7D001D217B /* AppDelegate.swift */; };
 		1858B3E220515C7D001D217B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858B3E120515C7D001D217B /* ViewController.swift */; };
 		1858B3E520515C7D001D217B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858B3E320515C7D001D217B /* Main.storyboard */; };
@@ -14,6 +20,8 @@
 		1858B3EA20515C7D001D217B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858B3E820515C7D001D217B /* LaunchScreen.storyboard */; };
 		1858B3F520515C7E001D217B /* DynaESPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858B3F420515C7E001D217B /* DynaESPTests.swift */; };
 		1858B40020515C7E001D217B /* DynaESPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858B3FF20515C7E001D217B /* DynaESPUITests.swift */; };
+		5B8AADE4E61D4AF10F9A57EE /* Pods_DynaESP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A5DE751500A49A19A08CD0 /* Pods_DynaESP.framework */; };
+		D27EBD76C57A24A39927BA40 /* Pods_DynaESPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0427743D8004C7431362A4AD /* Pods_DynaESPUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		016F1CB5F74400EC7F7B0090 /* Pods_DynaESPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynaESPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0427743D8004C7431362A4AD /* Pods_DynaESPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynaESPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1816B0F12084E1CB00B4B9CE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1816B0F32084E1E800B4B9CE /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		1816B0F52084E2AC00B4B9CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1816B0F72084E37700B4B9CE /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		1856159921AC018A00594F7E /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
 		1858B3DC20515C7D001D217B /* DynaESP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynaESP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1858B3DF20515C7D001D217B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1858B3E120515C7D001D217B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,13 @@
 		1858B3FB20515C7E001D217B /* DynaESPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynaESPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1858B3FF20515C7E001D217B /* DynaESPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynaESPUITests.swift; sourceTree = "<group>"; };
 		1858B40120515C7E001D217B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296C34D395791A36EFA122B6 /* Pods-DynaESPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynaESPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynaESPTests/Pods-DynaESPTests.release.xcconfig"; sourceTree = "<group>"; };
+		47185C00E85DE115D84609FF /* Pods-DynaESPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynaESPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynaESPTests/Pods-DynaESPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56374115B6CEB26390B84110 /* Pods-DynaESPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynaESPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynaESPUITests/Pods-DynaESPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79B1DFB353D6775ECEC6328D /* Pods-DynaESP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynaESP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynaESP/Pods-DynaESP.debug.xcconfig"; sourceTree = "<group>"; };
+		7AB1BAAC2D4A6A0F0E259608 /* Pods-DynaESPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynaESPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynaESPUITests/Pods-DynaESPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCB776A94E520CCCFA47D0A4 /* Pods-DynaESP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynaESP.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynaESP/Pods-DynaESP.release.xcconfig"; sourceTree = "<group>"; };
+		F3A5DE751500A49A19A08CD0 /* Pods_DynaESP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynaESP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8AADE4E61D4AF10F9A57EE /* Pods_DynaESP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075B1681931109FCEBFF8E59 /* Pods_DynaESPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27EBD76C57A24A39927BA40 /* Pods_DynaESPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093D30AC42C89CC10096FFB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3A5DE751500A49A19A08CD0 /* Pods_DynaESP.framework */,
+				016F1CB5F74400EC7F7B0090 /* Pods_DynaESPTests.framework */,
+				0427743D8004C7431362A4AD /* Pods_DynaESPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1858B3D320515C7D001D217B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +116,8 @@
 				1858B3F320515C7E001D217B /* DynaESPTests */,
 				1858B3FE20515C7E001D217B /* DynaESPUITests */,
 				1858B3DD20515C7D001D217B /* Products */,
+				A3F0A7A7E65D784C6D421F34 /* Pods */,
+				093D30AC42C89CC10096FFB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +135,16 @@
 			isa = PBXGroup;
 			children = (
 				1858B3DF20515C7D001D217B /* AppDelegate.swift */,
+				1816B0F72084E37700B4B9CE /* Reach.swift */,
 				1858B3E120515C7D001D217B /* ViewController.swift */,
 				1858B3E320515C7D001D217B /* Main.storyboard */,
+				1816B0F52084E2AC00B4B9CE /* LoginViewController.swift */,
+				1816B0F32084E1E800B4B9CE /* RoomViewController.swift */,
+				1816B0F12084E1CB00B4B9CE /* SettingsViewController.swift */,
 				1858B3E620515C7D001D217B /* Assets.xcassets */,
 				1858B3E820515C7D001D217B /* LaunchScreen.storyboard */,
 				1858B3EB20515C7D001D217B /* Info.plist */,
+				1856159921AC018A00594F7E /* SwitchViewController.swift */,
 			);
 			path = DynaESP;
 			sourceTree = "<group>";
@@ -125,6 +167,19 @@
 			path = DynaESPUITests;
 			sourceTree = "<group>";
 		};
+		A3F0A7A7E65D784C6D421F34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79B1DFB353D6775ECEC6328D /* Pods-DynaESP.debug.xcconfig */,
+				CCB776A94E520CCCFA47D0A4 /* Pods-DynaESP.release.xcconfig */,
+				47185C00E85DE115D84609FF /* Pods-DynaESPTests.debug.xcconfig */,
+				296C34D395791A36EFA122B6 /* Pods-DynaESPTests.release.xcconfig */,
+				7AB1BAAC2D4A6A0F0E259608 /* Pods-DynaESPUITests.debug.xcconfig */,
+				56374115B6CEB26390B84110 /* Pods-DynaESPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1858B40420515C7E001D217B /* Build configuration list for PBXNativeTarget "DynaESP" */;
 			buildPhases = (
+				65790EFF1B3E52129558E175 /* [CP] Check Pods Manifest.lock */,
 				1858B3D820515C7D001D217B /* Sources */,
 				1858B3D920515C7D001D217B /* Frameworks */,
 				1858B3DA20515C7D001D217B /* Resources */,
+				7D8AADAE065A40D439E98325 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1858B40720515C7E001D217B /* Build configuration list for PBXNativeTarget "DynaESPTests" */;
 			buildPhases = (
+				19E3573AF96F8024E25BB54A /* [CP] Check Pods Manifest.lock */,
 				1858B3EC20515C7E001D217B /* Sources */,
 				1858B3ED20515C7E001D217B /* Frameworks */,
 				1858B3EE20515C7E001D217B /* Resources */,
@@ -167,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1858B40A20515C7E001D217B /* Build configuration list for PBXNativeTarget "DynaESPUITests" */;
 			buildPhases = (
+				1AFA0D1E38201A54A33041B1 /* [CP] Check Pods Manifest.lock */,
 				1858B3F720515C7E001D217B /* Sources */,
 				1858B3F820515C7E001D217B /* Frameworks */,
 				1858B3F920515C7E001D217B /* Resources */,
@@ -193,6 +252,7 @@
 				TargetAttributes = {
 					1858B3DB20515C7D001D217B = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					1858B3EF20515C7E001D217B = {
@@ -254,13 +314,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19E3573AF96F8024E25BB54A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynaESPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AFA0D1E38201A54A33041B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynaESPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65790EFF1B3E52129558E175 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynaESP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D8AADAE065A40D439E98325 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DynaESP/Pods-DynaESP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynaESP/Pods-DynaESP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1858B3D820515C7D001D217B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1858B3E220515C7D001D217B /* ViewController.swift in Sources */,
+				1816B0F82084E37700B4B9CE /* Reach.swift in Sources */,
 				1858B3E020515C7D001D217B /* AppDelegate.swift in Sources */,
+				1816B0F22084E1CB00B4B9CE /* SettingsViewController.swift in Sources */,
+				1816B0F62084E2AC00B4B9CE /* LoginViewController.swift in Sources */,
+				1816B0F42084E1E800B4B9CE /* RoomViewController.swift in Sources */,
+				1856159A21AC018A00594F7E /* SwitchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +554,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -424,36 +564,52 @@
 		};
 		1858B40520515C7E001D217B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B1DFB353D6775ECEC6328D /* Pods-DynaESP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PHM7682P5S;
+				DEVELOPMENT_TEAM = B66WYGY665;
 				INFOPLIST_FILE = DynaESP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mahesh.DynaESP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahesh.DynamicESP1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DynaESP/Databse/DynaESP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1858B40620515C7E001D217B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB776A94E520CCCFA47D0A4 /* Pods-DynaESP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PHM7682P5S;
+				DEVELOPMENT_TEAM = B66WYGY665;
 				INFOPLIST_FILE = DynaESP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mahesh.DynaESP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahesh.DynamicESP1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DynaESP/Databse/DynaESP-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1858B40820515C7E001D217B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47185C00E85DE115D84609FF /* Pods-DynaESPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +627,7 @@
 		};
 		1858B40920515C7E001D217B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296C34D395791A36EFA122B6 /* Pods-DynaESPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +645,7 @@
 		};
 		1858B40B20515C7E001D217B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB1BAAC2D4A6A0F0E259608 /* Pods-DynaESPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +662,7 @@
 		};
 		1858B40C20515C7E001D217B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56374115B6CEB26390B84110 /* Pods-DynaESPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
